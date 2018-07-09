@@ -5,7 +5,21 @@ Pré-requisitos
 - NodeJS 9
 - NPM 4
 
-Pacotes usados
+Como rodar
+===
+
+```
+./loadData.sh
+npm install
+node index.js
+```
+
+Se quiser mudar o endereço do mongo, basta setar a variavel de ambiente:
+```
+MONGO_URI="mongodb://user:senha@host:31941/codesign" node index.js
+```
+
+Pacotes usados para referência
 ===
 
 ```
@@ -44,12 +58,3 @@ Retorna uma lista de todas as séries cadastrada no banco
 - GET /series/{id}
 
 Retorna uma única série por ID
-
-Como rodar
-===
-
-```
-./loadData.sh
-npm install
-node index.js
-```
