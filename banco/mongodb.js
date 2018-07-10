@@ -10,6 +10,8 @@ const Serie = connection.model('Serie', mongoose.Schema({
     cartaz: String,
     trailer: String,
     dataEstreia: Date,
+    sinopse: String,
+    temporadas: Number,
     elenco: Array
 }))
 

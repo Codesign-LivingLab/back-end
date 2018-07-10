@@ -3,5 +3,7 @@
     "titulo": "Breaking Bad",
     "dataEstreia": "2008-01-20",
     "elenco": ["Bryan Cranston", "Anna Gunn", "Aaron Paul"],
-    "trailer": "https://www.youtube.com/watch?v=ab-XRTDE5Jc"
+    "trailer": "https://youtu.be/HhesaQXLuRY",
+    "sinopse": "Walter White (Bryan Cranston) é um professor de química na casa dos 50 anos que trabalha em uma escola secundária no Novo México. Para atender às necessidades de Skyler (Anna Gunn), sua esposa grávida, e Walt Junior (RJ Mitte), seu filho deficiente físico, ele tem que trabalhar duplamente. Sua vida fica ainda mais complicada quando descobre que está sofrendo de um câncer de pulmão incurável",
+    "temporadas": 4
 }
