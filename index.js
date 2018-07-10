@@ -3,7 +3,7 @@ const Serie = require('./banco/mongodb').Serie
 const Joi = require('joi')
 
 const server = new Hapi.server({
-    port: 3000,
+    port: process.env.PORT||3000,
     host: 'localhost'
 })
 
